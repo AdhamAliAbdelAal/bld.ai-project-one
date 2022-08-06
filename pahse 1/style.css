@@ -15,6 +15,7 @@ nav {
     padding-left: 24px;
     padding-right: 24px;
     font-family: Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
 
 nav>* {
@@ -95,7 +96,7 @@ header
 {
     max-width: 78%;
     margin: auto;
-    background-color: #f7f9fa;
+    background-color: #DEDEDE;
     display: flex;
     align-items: center;
     font-weight: 400;
@@ -106,6 +107,7 @@ header div{
     background-color: #ffffff;
     padding:20px;
     font-family: Georgia,Times,"times new roman",serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
 header p{
     line-height: 1.4;
@@ -146,7 +148,7 @@ header p::first-letter,header h1::first-letter{
         font-size: 1rem;
     }
     header h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -180,10 +182,10 @@ header p::first-letter,header h1::first-letter{
         width: 100%;
     }
     header p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     header h1{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -218,10 +220,10 @@ header p::first-letter,header h1::first-letter{
         width: 40%;
     }
     header p{
-        font-size: 1.3rem;
+        font-size: 1.4vw;
     }
     header h1{
-        font-size: 1.8rem;
+        font-size: 2.2vw;
     }
 }
 
@@ -258,9 +260,9 @@ header p::first-letter,header h1::first-letter{
         width: 40%;
     }
     header p{
-        font-size: 1.4rem;
+        font-size: 1.2vw;
     }
     header h1{
-        font-size: 1.9rem;
+        font-size: 2vw;
     }
 }
