@@ -7,18 +7,12 @@
 header {
     display: flex;
     background-color: #ffffff;
-    padding-left: 24px;
-    padding-right: 24px;
-    height: 70px;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
     font-size: 0.9rem;
     font-weight: 400;
-}
-
-header>*:not(.search-div) {
-    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 header>* {
@@ -43,7 +37,6 @@ header>* {
 .search-div input[type=text] {
     border-width: 0;
     background-color: inherit;
-    /*background-color: gold;*/
     height: 100%;
     outline: none;
     flex-grow: 1;
@@ -96,4 +89,85 @@ a {
 
 header+div {
     background-color: gold;
+}
+
+@media(max-width:800px) {
+    .menu {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 900;
+    }
+
+    header>*:not(:last-child):not(:first-child) {
+        display: none;
+    }
+    header {
+        height: 60px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:800px)and (max-width:920px) {
+    .udemy-business {
+        display: none;
+    }
+
+    .teach-on-udemy {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+    header {
+        height: 70px;
+        flex-direction: row;
+    }
+    header>*:not(.search-div) {
+        flex-grow: 1;
+    }
+}
+
+@media(min-width:920px)and (max-width:1080px) {
+    .udemy-business {
+        display: none;
+    }
+
+    .teach-on-udemy {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+    header {
+        height: 70px;
+        flex-direction: row;
+    }
+    header>*:not(.search-div) {
+        flex-grow: 1;
+    }
+}
+
+@media(min-width:1080px) {
+    .udemy-business {
+        display: block;
+    }
+
+    .teach-on-udemy {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    header {
+        height: 70px;
+        flex-direction: row;
+    }
+    header>*:not(.search-div) {
+        flex-grow: 1;
+    }
 }
