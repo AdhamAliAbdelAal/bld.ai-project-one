@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: antiquewhite;
+    padding-left: 24px;
+    padding-left: 24px;
+    height: 72px;
+    flex-direction: row;
+    align-items: center;
+}
+
+header>*:not(.search-div) {
+    flex-grow: 1;
+}
+
+.search-div {
+    flex-grow: 3;
+}
+
+.search-div input[type=text] {
+    width: 100%;
+}
