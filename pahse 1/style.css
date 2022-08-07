@@ -94,7 +94,7 @@ a {
 
 header
 {
-    width: 87%;
+    width: 89%;
     margin: auto;
     background-color: #DEDEDE;
     display: flex;
@@ -124,15 +124,18 @@ header p::first-letter,header h1::first-letter,.sec1 p::first-letter,.sec1 h1::f
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 87%;
-    padding-left: 20px;
+    width: 89%;
+}
+.sec1>*
+{
+    width: 95%;
+    margin: auto;
 }
 .sec1>div:first-child
 {
     padding-top:40px;
     padding-bottom:20px;
     font-family: Georgia,Times,"times new roman",serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
-    width: 100%;
 }
 .sec1 ul
 {
@@ -166,7 +169,6 @@ header p::first-letter,header h1::first-letter,.sec1 p::first-letter,.sec1 h1::f
 {
     margin-top: 10px;
     margin-bottom: 10px;
-    width:100%;
     border: 1px rgb(68, 68, 68) solid;
     padding: 20px;
     font-family: Georgia,Times,"times new roman",serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
@@ -188,7 +190,7 @@ header p::first-letter,header h1::first-letter,.sec1 p::first-letter,.sec1 h1::f
 {
     width:100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .course-card
@@ -247,6 +249,10 @@ header p::first-letter,header h1::first-letter,.sec1 p::first-letter,.sec1 h1::f
     {
         font-size: 0.8rem;
     }
+    .tabs
+    {
+        display: none;
+    }
 }
 
 @media(min-width:800px)and (max-width:920px) {
@@ -287,6 +293,10 @@ header p::first-letter,header h1::first-letter,.sec1 p::first-letter,.sec1 h1::f
     .topics-div p
     {
         font-size: 0.9rem;
+    }
+    .tabs
+    {
+        display: none;
     }
 }
 
@@ -329,6 +339,10 @@ header p::first-letter,header h1::first-letter,.sec1 p::first-letter,.sec1 h1::f
     .topics-div p
     {
         font-size: 1.2vw;
+    }
+    .tabs
+    {
+        display: none;
     }
 }
 
