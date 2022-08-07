@@ -94,7 +94,7 @@ a {
 
 header
 {
-    max-width: 78%;
+    width: 87%;
     margin: auto;
     background-color: #DEDEDE;
     display: flex;
@@ -109,15 +109,108 @@ header div{
     font-family: Georgia,Times,"times new roman",serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
-header p{
+header p,.sec1 p{
     line-height: 1.4;
     margin-top: 15px;
 }
 
-header p::first-letter,header h1::first-letter{
+header p::first-letter,header h1::first-letter,.sec1 p::first-letter,.sec1 h1::first-letter,.sec1 h2::first-letter{
     text-transform: capitalize;
 }
 
+/*section one styling*/
+.sec1
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 87%;
+    padding-left: 20px;
+}
+.sec1>div:first-child
+{
+    padding-top:40px;
+    padding-bottom:20px;
+    font-family: Georgia,Times,"times new roman",serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
+    width: 100%;
+}
+.sec1 ul
+{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    justify-content: flex-start;
+    margin-bottom:10px;
+}
+
+.sec1 li
+{
+    color: #6a6f73;
+    font-family: "segoe ui",Helvetica,Arial,sans-serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-right: 25px;
+}
+.sec1 li:hover
+{
+    color: #000;
+    cursor: pointer;
+}
+.sec1 ul li span{
+    text-transform: uppercase;
+}
+.topics-div
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    border: 1px rgb(68, 68, 68) solid;
+    padding: 20px;
+    font-family: Georgia,Times,"times new roman",serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
+    
+}
+.explore-button
+{
+    margin:18px 0px;
+    border: 1px #000 solid;
+    width: fit-content;
+    padding: 10px;
+    font-weight: 700;
+}
+.rating{
+    color: #e59819;
+    font-size: 0.9rem;
+}
+.courses-div
+{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course-card
+{
+    max-width:240px;
+    margin-bottom: 20px;
+}
+.course-details{
+    width:100%;
+    padding: 5px 0;
+}
+.course-details>*
+{
+    margin:5px 0px;
+}
+.course-card span:first-of-type{
+    color:#6a6f73;
+    font-size:0.8rem;
+}
+.course-card span:last-of-type{
+    font-weight: bold;
+}
 /*media queries*/
 @media(max-width:800px) {
     .menu {
@@ -144,11 +237,15 @@ header p::first-letter,header h1::first-letter{
     header div{
         width: 100%;
     }
-    header p{
+    header p,.sec1 p{
         font-size: 1rem;
     }
-    header h1{
+    header h1,.sec1 h1{
         font-size: 1.2rem;
+    }
+    .topics-div p
+    {
+        font-size: 0.8rem;
     }
 }
 
@@ -181,11 +278,15 @@ header p::first-letter,header h1::first-letter{
     header div{
         width: 100%;
     }
-    header p{
+    header p,.sec1 p{
         font-size: 1.1rem;
     }
-    header h1{
+    header h1,.sec1 h1{
         font-size: 1.4rem;
+    }
+    .topics-div p
+    {
+        font-size: 0.9rem;
     }
 }
 
@@ -219,11 +320,15 @@ header p::first-letter,header h1::first-letter{
     header div{
         width: 40%;
     }
-    header p{
+    header p,.sec1 p{
         font-size: 1.4vw;
     }
-    header h1{
+    header h1,.sec1 h1{
         font-size: 2.2vw;
+    }
+    .topics-div p
+    {
+        font-size: 1.2vw;
     }
 }
 
@@ -259,10 +364,14 @@ header p::first-letter,header h1::first-letter{
     header div{
         width: 40%;
     }
-    header p{
+    header p,.sec1 p{
         font-size: 1.2vw;
     }
-    header h1{
+    header h1,.sec1 h1{
         font-size: 2vw;
+    }
+    .topics-div p
+    {
+        font-size: 1.1vw;
     }
 }
