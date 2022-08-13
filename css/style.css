@@ -70,6 +70,7 @@ a {
     border: 0;
     background-color: inherit;
     cursor: pointer;
+    outline: 0;
 }
 
 .login-button {
