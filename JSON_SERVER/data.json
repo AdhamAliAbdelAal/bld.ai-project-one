@@ -1,58 +1,431 @@
 {
-    "courses":[
+    "courses": [
         {
-            "name":"learn python: the complete python programming course",
-            "img":"https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
-            "author":"avinash jain, the codex",
-            "rating":"4.4",
-            "number of ratings":"24,494",
-            "current price":"E£679.99",
-            "old price":"E£1679.99"
+            "courses topic": "python",
+            "caption": "expand your career opportunities with Python",
+            "tip": "take one of udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to",
+            "courses details": [
+                {
+                    "name": "learn python: the complete python programming course",
+                    "img": "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+                    "author": "avinash jain, the codex",
+                    "rating": "4.4",
+                    "number of ratings": "24,494",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "learning python for data analysis and visualization",
+                    "img": "https://img-b.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+                    "author": "Jose Portilla",
+                    "rating": "1",
+                    "number of ratings": "27,378",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "python for beginners - learn programming from scratch",
+                    "img": "https://img-b.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "rating": "5",
+                    "number of ratings": "10,128",
+                    "current price": "E£179.99",
+                    "old price": "E£679.99"
+                },
+                {
+                    "name": "python beyond the basics - object-oriented programming",
+                    "img": "https://img-b.udemycdn.com/course/240x135/426570_1b91_3.jpg",
+                    "author": "Abrar Hussain",
+                    "rating": "1.7",
+                    "number of ratings": "2,300",
+                    "current price": "E£293.99",
+                    "old price": "E£1000.99"
+                },
+                {
+                    "name": "learn python: python for beginners",
+                    "img": "https://img-b.udemycdn.com/course/240x135/577248_3b6f_13.jpg",
+                    "author": "Infinite Skills",
+                    "rating": "2.4",
+                    "number of ratings": "1,378",
+                    "current price": "E£6379.99",
+                    "old price": "E£8679.99"
+                },
+                {
+                    "name": "automate the boring stuff with python programming",
+                    "img": "https://img-b.udemycdn.com/course/240x135/449532_2aa9_7.jpg",
+                    "author": "Sherlock Homels",
+                    "rating": "3",
+                    "number of ratings": "7,895",
+                    "current price": "E£575.99",
+                    "old price": "E£1679.99"
+                }
+            ]
         },
         {
-            "name":"learning python for data analysis and visualization",
-            "img":"https://img-b.udemycdn.com/course/240x135/396876_cc92_7.jpg",
-            "author":"Jose Portilla",
-            "rating":"1",
-            "number of ratings":"27,378",
-            "current price":"E£679.99",
-            "old price":"E£1679.99"
+            "courses topic": "excel",
+            "caption": "analyze and visualize data with Excel",
+            "tip": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to",
+            "courses details": [
+                {
+                    "name": "microsoft excel 2013 course beginners/ intermediate training",
+                    "img": "https://img-b.udemycdn.com/course/240x135/31535_e351_7.jpg",
+                    "author": "avinash jain, the codex",
+                    "rating": "4.4",
+                    "number of ratings": "24,494",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "microsoft excel - from beginner to expert in 6 hours",
+                    "img": "https://img-b.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+                    "author": "Jose Portilla",
+                    "rating": "1",
+                    "number of ratings": "27,378",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "sharper skills using microsoft excel 2010 for business",
+                    "img": "https://img-b.udemycdn.com/course/240x135/49250_a658_8.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "rating": "5",
+                    "number of ratings": "10,128",
+                    "current price": "E£179.99",
+                    "old price": "E£679.99"
+                },
+                {
+                    "name": "advanced excel - beginner to ninja level (includes charts)",
+                    "img": "https://img-b.udemycdn.com/course/240x135/51078_15b7_8.jpg",
+                    "author": "Abrar Hussain",
+                    "rating": "1.7",
+                    "number of ratings": "2,300",
+                    "current price": "E£293.99",
+                    "old price": "E£1000.99"
+                },
+                {
+                    "name": "learn microsoft excel 2013 - advanced",
+                    "img": "https://img-b.udemycdn.com/course/240x135/56660_5635_3.jpg",
+                    "author": "Infinite Skills",
+                    "rating": "2.4",
+                    "number of ratings": "1,378",
+                    "current price": "E£6379.99",
+                    "old price": "E£8679.99"
+                },
+                {
+                    "name": "7 steps to excel success - excel skills and power tips",
+                    "img": "https://img-b.udemycdn.com/course/240x135/70720_1f9e_7.jpg",
+                    "author": "Sherlock Homels",
+                    "rating": "3",
+                    "number of ratings": "7,895",
+                    "current price": "E£575.99",
+                    "old price": "E£1679.99"
+                }
+            ]
         },
         {
-            "name":"python for beginners - learn programming from scratch",
-            "img":"https://img-b.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
-            "author":"Edwin Diaz, Coding Faculty Solutions",
-            "rating":"5",
-            "number of ratings":"10,128",
-            "current price":"E£179.99",
-            "old price":"E£679.99"
+            "courses topic": "excel",
+            "caption": "analyze and visualize data with Excel",
+            "tip": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to",
+            "courses details": [
+                {
+                    "name": "microsoft excel 2013 course beginners/ intermediate training",
+                    "img": "https://img-b.udemycdn.com/course/240x135/31535_e351_7.jpg",
+                    "author": "avinash jain, the codex",
+                    "rating": "4.4",
+                    "number of ratings": "24,494",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "microsoft excel - from beginner to expert in 6 hours",
+                    "img": "https://img-b.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+                    "author": "Jose Portilla",
+                    "rating": "1",
+                    "number of ratings": "27,378",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "sharper skills using microsoft excel 2010 for business",
+                    "img": "https://img-b.udemycdn.com/course/240x135/49250_a658_8.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "rating": "5",
+                    "number of ratings": "10,128",
+                    "current price": "E£179.99",
+                    "old price": "E£679.99"
+                },
+                {
+                    "name": "advanced excel - beginner to ninja level (includes charts)",
+                    "img": "https://img-b.udemycdn.com/course/240x135/51078_15b7_8.jpg",
+                    "author": "Abrar Hussain",
+                    "rating": "1.7",
+                    "number of ratings": "2,300",
+                    "current price": "E£293.99",
+                    "old price": "E£1000.99"
+                },
+                {
+                    "name": "learn microsoft excel 2013 - advanced",
+                    "img": "https://img-b.udemycdn.com/course/240x135/56660_5635_3.jpg",
+                    "author": "Infinite Skills",
+                    "rating": "2.4",
+                    "number of ratings": "1,378",
+                    "current price": "E£6379.99",
+                    "old price": "E£8679.99"
+                },
+                {
+                    "name": "7 steps to excel success - excel skills and power tips",
+                    "img": "https://img-b.udemycdn.com/course/240x135/70720_1f9e_7.jpg",
+                    "author": "Sherlock Homels",
+                    "rating": "3",
+                    "number of ratings": "7,895",
+                    "current price": "E£575.99",
+                    "old price": "E£1679.99"
+                }
+            ]
         },
         {
-            "name":"python beyond the basics - object-oriented programming",
-            "img":"https://img-b.udemycdn.com/course/240x135/426570_1b91_3.jpg",
-            "author":"Abrar Hussain",
-            "rating":"1.7",
-            "number of ratings":"2,300",
-            "current price":"E£293.99",
-            "old price":"E£1000.99"
+            "courses topic": "excel",
+            "caption": "analyze and visualize data with Excel",
+            "tip": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to",
+            "courses details": [
+                {
+                    "name": "microsoft excel 2013 course beginners/ intermediate training",
+                    "img": "https://img-b.udemycdn.com/course/240x135/31535_e351_7.jpg",
+                    "author": "avinash jain, the codex",
+                    "rating": "4.4",
+                    "number of ratings": "24,494",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "microsoft excel - from beginner to expert in 6 hours",
+                    "img": "https://img-b.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+                    "author": "Jose Portilla",
+                    "rating": "1",
+                    "number of ratings": "27,378",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "sharper skills using microsoft excel 2010 for business",
+                    "img": "https://img-b.udemycdn.com/course/240x135/49250_a658_8.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "rating": "5",
+                    "number of ratings": "10,128",
+                    "current price": "E£179.99",
+                    "old price": "E£679.99"
+                },
+                {
+                    "name": "advanced excel - beginner to ninja level (includes charts)",
+                    "img": "https://img-b.udemycdn.com/course/240x135/51078_15b7_8.jpg",
+                    "author": "Abrar Hussain",
+                    "rating": "1.7",
+                    "number of ratings": "2,300",
+                    "current price": "E£293.99",
+                    "old price": "E£1000.99"
+                },
+                {
+                    "name": "learn microsoft excel 2013 - advanced",
+                    "img": "https://img-b.udemycdn.com/course/240x135/56660_5635_3.jpg",
+                    "author": "Infinite Skills",
+                    "rating": "2.4",
+                    "number of ratings": "1,378",
+                    "current price": "E£6379.99",
+                    "old price": "E£8679.99"
+                },
+                {
+                    "name": "7 steps to excel success - excel skills and power tips",
+                    "img": "https://img-b.udemycdn.com/course/240x135/70720_1f9e_7.jpg",
+                    "author": "Sherlock Homels",
+                    "rating": "3",
+                    "number of ratings": "7,895",
+                    "current price": "E£575.99",
+                    "old price": "E£1679.99"
+                }
+            ]
         },
         {
-            "name":"learn python: python for beginners",
-            "img":"https://img-b.udemycdn.com/course/240x135/577248_3b6f_13.jpg",
-            "author":"Infinite Skills",
-            "rating":"2.4",
-            "number of ratings":"1,378",
-            "current price":"E£6379.99",
-            "old price":"E£8679.99"
+            "courses topic": "excel",
+            "caption": "analyze and visualize data with Excel",
+            "tip": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to",
+            "courses details": [
+                {
+                    "name": "microsoft excel 2013 course beginners/ intermediate training",
+                    "img": "https://img-b.udemycdn.com/course/240x135/31535_e351_7.jpg",
+                    "author": "avinash jain, the codex",
+                    "rating": "4.4",
+                    "number of ratings": "24,494",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "microsoft excel - from beginner to expert in 6 hours",
+                    "img": "https://img-b.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+                    "author": "Jose Portilla",
+                    "rating": "1",
+                    "number of ratings": "27,378",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "sharper skills using microsoft excel 2010 for business",
+                    "img": "https://img-b.udemycdn.com/course/240x135/49250_a658_8.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "rating": "5",
+                    "number of ratings": "10,128",
+                    "current price": "E£179.99",
+                    "old price": "E£679.99"
+                },
+                {
+                    "name": "advanced excel - beginner to ninja level (includes charts)",
+                    "img": "https://img-b.udemycdn.com/course/240x135/51078_15b7_8.jpg",
+                    "author": "Abrar Hussain",
+                    "rating": "1.7",
+                    "number of ratings": "2,300",
+                    "current price": "E£293.99",
+                    "old price": "E£1000.99"
+                },
+                {
+                    "name": "learn microsoft excel 2013 - advanced",
+                    "img": "https://img-b.udemycdn.com/course/240x135/56660_5635_3.jpg",
+                    "author": "Infinite Skills",
+                    "rating": "2.4",
+                    "number of ratings": "1,378",
+                    "current price": "E£6379.99",
+                    "old price": "E£8679.99"
+                },
+                {
+                    "name": "7 steps to excel success - excel skills and power tips",
+                    "img": "https://img-b.udemycdn.com/course/240x135/70720_1f9e_7.jpg",
+                    "author": "Sherlock Homels",
+                    "rating": "3",
+                    "number of ratings": "7,895",
+                    "current price": "E£575.99",
+                    "old price": "E£1679.99"
+                }
+            ]
         },
         {
-            "name":"automate the boring stuff with python programming",
-            "img":"https://img-b.udemycdn.com/course/240x135/449532_2aa9_7.jpg",
-            "author":"Sherlock Homels",
-            "rating":"3",
-            "number of ratings":"7,895",
-            "current price":"E£575.99",
-            "old price":"E£1679.99"
+            "courses topic": "excel",
+            "caption": "analyze and visualize data with Excel",
+            "tip": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to",
+            "courses details": [
+                {
+                    "name": "microsoft excel 2013 course beginners/ intermediate training",
+                    "img": "https://img-b.udemycdn.com/course/240x135/31535_e351_7.jpg",
+                    "author": "avinash jain, the codex",
+                    "rating": "4.4",
+                    "number of ratings": "24,494",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "microsoft excel - from beginner to expert in 6 hours",
+                    "img": "https://img-b.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+                    "author": "Jose Portilla",
+                    "rating": "1",
+                    "number of ratings": "27,378",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "sharper skills using microsoft excel 2010 for business",
+                    "img": "https://img-b.udemycdn.com/course/240x135/49250_a658_8.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "rating": "5",
+                    "number of ratings": "10,128",
+                    "current price": "E£179.99",
+                    "old price": "E£679.99"
+                },
+                {
+                    "name": "advanced excel - beginner to ninja level (includes charts)",
+                    "img": "https://img-b.udemycdn.com/course/240x135/51078_15b7_8.jpg",
+                    "author": "Abrar Hussain",
+                    "rating": "1.7",
+                    "number of ratings": "2,300",
+                    "current price": "E£293.99",
+                    "old price": "E£1000.99"
+                },
+                {
+                    "name": "learn microsoft excel 2013 - advanced",
+                    "img": "https://img-b.udemycdn.com/course/240x135/56660_5635_3.jpg",
+                    "author": "Infinite Skills",
+                    "rating": "2.4",
+                    "number of ratings": "1,378",
+                    "current price": "E£6379.99",
+                    "old price": "E£8679.99"
+                },
+                {
+                    "name": "7 steps to excel success - excel skills and power tips",
+                    "img": "https://img-b.udemycdn.com/course/240x135/70720_1f9e_7.jpg",
+                    "author": "Sherlock Homels",
+                    "rating": "3",
+                    "number of ratings": "7,895",
+                    "current price": "E£575.99",
+                    "old price": "E£1679.99"
+                }
+            ]
+        },
+        {
+            "courses topic": "excel",
+            "caption": "analyze and visualize data with Excel",
+            "tip": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to",
+            "courses details": [
+                {
+                    "name": "microsoft excel 2013 course beginners/ intermediate training",
+                    "img": "https://img-b.udemycdn.com/course/240x135/31535_e351_7.jpg",
+                    "author": "avinash jain, the codex",
+                    "rating": "4.4",
+                    "number of ratings": "24,494",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "microsoft excel - from beginner to expert in 6 hours",
+                    "img": "https://img-b.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+                    "author": "Jose Portilla",
+                    "rating": "1",
+                    "number of ratings": "27,378",
+                    "current price": "E£679.99",
+                    "old price": "E£1679.99"
+                },
+                {
+                    "name": "sharper skills using microsoft excel 2010 for business",
+                    "img": "https://img-b.udemycdn.com/course/240x135/49250_a658_8.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "rating": "5",
+                    "number of ratings": "10,128",
+                    "current price": "E£179.99",
+                    "old price": "E£679.99"
+                },
+                {
+                    "name": "advanced excel - beginner to ninja level (includes charts)",
+                    "img": "https://img-b.udemycdn.com/course/240x135/51078_15b7_8.jpg",
+                    "author": "Abrar Hussain",
+                    "rating": "1.7",
+                    "number of ratings": "2,300",
+                    "current price": "E£293.99",
+                    "old price": "E£1000.99"
+                },
+                {
+                    "name": "learn microsoft excel 2013 - advanced",
+                    "img": "https://img-b.udemycdn.com/course/240x135/56660_5635_3.jpg",
+                    "author": "Infinite Skills",
+                    "rating": "2.4",
+                    "number of ratings": "1,378",
+                    "current price": "E£6379.99",
+                    "old price": "E£8679.99"
+                },
+                {
+                    "name": "7 steps to excel success - excel skills and power tips",
+                    "img": "https://img-b.udemycdn.com/course/240x135/70720_1f9e_7.jpg",
+                    "author": "Sherlock Homels",
+                    "rating": "3",
+                    "number of ratings": "7,895",
+                    "current price": "E£575.99",
+                    "old price": "E£1679.99"
+                }
+            ]
         }
     ]
 }

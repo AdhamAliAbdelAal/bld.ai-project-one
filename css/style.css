@@ -183,6 +183,11 @@ header h1::first-letter,
 
 }
 
+.active-topic
+{
+    color: rgb(0, 0, 0) !important;
+}
+
 .explore-button {
     margin: 18px 0px;
     border: 1px #000 solid;
