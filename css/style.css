@@ -6,9 +6,6 @@
 /*navbar styling*/
 
 nav {
-    position: fixed;
-    right: 0px;
-    left: 0px;
     display: flex;
     background-color: #ffffff;
     font-size: 0.9rem;
@@ -146,7 +143,7 @@ header h1::first-letter,
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.sec1 ul {
+.sec1 .first-ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
@@ -204,9 +201,15 @@ header h1::first-letter,
 .courses-div {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* position: relative; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    overflow: scroll;
+    scroll-behavior: smooth;
 }
+.courses-div::-webkit-scrollbar {
+    display: none;
+  }
 
 .course-card {
     max-width: 240px;
@@ -465,4 +468,32 @@ header h1::first-letter,
     .topics-div p {
         font-size: 1.1vw;
     }
+}
+
+.right-scroll,.left-scroll {
+    color: #ffffff;
+    background-color: #000000a3;
+    font-size: 1.3em;
+    padding: .4%;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 88px;
+    position: relative;
+    transition: 0.5s;
+    margin: 0;
+}
+.right-scroll
+{
+    float: right;
+    left: 14px;
+}
+.left-scroll
+{
+    float: left;
+    right: 14px;
 }
