@@ -143,12 +143,28 @@ header h1::first-letter,
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.sec1 .first-ul {
+.first-ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     justify-content: flex-start;
     margin-bottom: 10px;
+    overflow: auto;
+}
+
+.first-ul::-webkit-scrollbar {
+    height: 10px;
+}
+
+.first-ul::-webkit-scrollbar-track
+{
+    background-color: rgb(255, 255, 255);
+}
+.first-ul::-webkit-scrollbar-thumb
+{
+    background-color: #DEDEDE;;
+    border-radius: 20px;
+    width: 10px;
 }
 
 .sec1 li {
@@ -160,6 +176,7 @@ header h1::first-letter,
     font-size: 1rem;
     text-transform: capitalize;
     margin-right: 25px;
+    white-space: nowrap;
 }
 
 .sec1 li:hover {
@@ -180,8 +197,7 @@ header h1::first-letter,
 
 }
 
-.active-topic
-{
+.active-topic {
     color: rgb(0, 0, 0) !important;
 }
 
@@ -207,9 +223,10 @@ header h1::first-letter,
     overflow: scroll;
     scroll-behavior: smooth;
 }
+
 .courses-div::-webkit-scrollbar {
     display: none;
-  }
+}
 
 .course-card {
     max-width: 240px;
@@ -299,10 +316,6 @@ header h1::first-letter,
     .topics-div p {
         font-size: 0.8rem;
     }
-
-    .tabs {
-        display: none;
-    }
 }
 
 @media(min-width:800px)and (max-width:920px) {
@@ -357,9 +370,7 @@ header h1::first-letter,
         font-size: 0.9rem;
     }
 
-    .tabs {
-        display: none;
-    }
+
 }
 
 @media(min-width:920px)and (max-width:1080px) {
@@ -414,10 +425,6 @@ header h1::first-letter,
     .topics-div p {
         font-size: 1.2vw;
     }
-
-    .tabs {
-        display: none;
-    }
 }
 
 @media(min-width:1080px) {
@@ -470,7 +477,8 @@ header h1::first-letter,
     }
 }
 
-.right-scroll,.left-scroll {
+.right-scroll,
+.left-scroll {
     color: #ffffff;
     background-color: #000000a3;
     font-size: 1.3em;
@@ -487,13 +495,24 @@ header h1::first-letter,
     transition: 0.5s;
     margin: 0;
 }
-.right-scroll
-{
+
+.right-scroll {
     float: right;
     left: 14px;
 }
-.left-scroll
-{
+
+.left-scroll {
     float: left;
     right: 14px;
+}
+
+.sec2 {
+    width: 89%;
+    margin: auto;
+}
+
+.sec2 .row {
+    width: 90%;
+    margin: auto;
+    /*background-color: #000;*/
 }

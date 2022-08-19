@@ -8,7 +8,7 @@ let Run = async function () {
         //topic div
         const topicsDiv = document.createElement('div');
         topicsDiv.classList.add("topics-div");
-        topicsDiv.classList.add(data[cnt]['courses topic']);
+        topicsDiv.classList.add(data[cnt]['courses class']);
         const intermediateDiv = document.createElement('div');
         if (cnt) {
             topicsDiv.style.display = 'none';
@@ -107,13 +107,13 @@ let Run = async function () {
             //coures price  
             let coursePrice = document.createElement('span');
             coursePrice.classList.add("price-span");
-            coursePrice.appendChild(document.createTextNode(`${element["current price"]}`));
+            coursePrice.appendChild(document.createTextNode(`E£${element["current price"]}`));
             coursePrice.innerHTML += `&nbsp;&nbsp;`;
             courseDetails.appendChild(coursePrice);
 
             let courseOldPrice = document.createElement('span');
             courseOldPrice.classList.add("old-price-span");
-            courseOldPrice.appendChild(document.createTextNode(`${element["old price"]}`));
+            courseOldPrice.appendChild(document.createTextNode(`E£${element["old price"]}`));
             courseDetails.appendChild(courseOldPrice);
 
             courseCard.appendChild(courseDetails);
@@ -148,7 +148,7 @@ const searchFunction = (event) => {
     console.log(allCoursesTitles);
     for (let i = 0; i < allCoursesTitles.length; ++i) {
         console.log(allCoursesTitles[i]);
-        if (!allCoursesTitles[i].textContent.includes(searchFor)) {
+        if (!allCoursesTitles[i].textContent.match(new RegExp(searchFor,"i"))) {
             allCoursesTitles[i].parentElement.parentElement.style.display = 'none';
         }
         else {
