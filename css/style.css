@@ -6,9 +6,6 @@
 /*navbar styling*/
 
 nav {
-    position: fixed;
-    right: 0px;
-    left: 0px;
     display: flex;
     background-color: #ffffff;
     font-size: 0.9rem;
@@ -146,12 +143,28 @@ header h1::first-letter,
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.sec1 ul {
+.first-ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     justify-content: flex-start;
     margin-bottom: 10px;
+    overflow: auto;
+}
+
+.first-ul::-webkit-scrollbar {
+    height: 10px;
+}
+
+.first-ul::-webkit-scrollbar-track
+{
+    background-color: rgb(255, 255, 255);
+}
+.first-ul::-webkit-scrollbar-thumb
+{
+    background-color: #DEDEDE;;
+    border-radius: 20px;
+    width: 10px;
 }
 
 .sec1 li {
@@ -163,6 +176,7 @@ header h1::first-letter,
     font-size: 1rem;
     text-transform: capitalize;
     margin-right: 25px;
+    white-space: nowrap;
 }
 
 .sec1 li:hover {
@@ -183,6 +197,10 @@ header h1::first-letter,
 
 }
 
+.active-topic {
+    color: rgb(0, 0, 0) !important;
+}
+
 .explore-button {
     margin: 18px 0px;
     border: 1px #000 solid;
@@ -199,8 +217,15 @@ header h1::first-letter,
 .courses-div {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* position: relative; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.courses-div::-webkit-scrollbar {
+    display: none;
 }
 
 .course-card {
@@ -291,10 +316,6 @@ header h1::first-letter,
     .topics-div p {
         font-size: 0.8rem;
     }
-
-    .tabs {
-        display: none;
-    }
 }
 
 @media(min-width:800px)and (max-width:920px) {
@@ -349,9 +370,7 @@ header h1::first-letter,
         font-size: 0.9rem;
     }
 
-    .tabs {
-        display: none;
-    }
+
 }
 
 @media(min-width:920px)and (max-width:1080px) {
@@ -406,10 +425,6 @@ header h1::first-letter,
     .topics-div p {
         font-size: 1.2vw;
     }
-
-    .tabs {
-        display: none;
-    }
 }
 
 @media(min-width:1080px) {
@@ -460,4 +475,44 @@ header h1::first-letter,
     .topics-div p {
         font-size: 1.1vw;
     }
+}
+
+.right-scroll,
+.left-scroll {
+    color: #ffffff;
+    background-color: #000000a3;
+    font-size: 1.3em;
+    padding: .4%;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 88px;
+    position: relative;
+    transition: 0.5s;
+    margin: 0;
+}
+
+.right-scroll {
+    float: right;
+    left: 14px;
+}
+
+.left-scroll {
+    float: left;
+    right: 14px;
+}
+
+.sec2 {
+    width: 89%;
+    margin: auto;
+}
+
+.sec2 .row {
+    width: 90%;
+    margin: auto;
+    /*background-color: #000;*/
 }
